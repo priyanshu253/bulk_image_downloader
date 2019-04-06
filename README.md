@@ -6,7 +6,14 @@ Download Multiple Google Images
 * Lib: BeautifulSoup, requests, json etc.
 
 **Install Lib**
-* pip install requests <- change this as required.
+
+        sudo apt update
+
+        sudo apt install python-pip
+
+        sudo pip install requests
+
+        sudo apt-get install python-bs4
 
 **Steps**
 Step 1: Create download directory
