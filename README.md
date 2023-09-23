@@ -1,32 +1,28 @@
-# Mass Image Downloader
-Download Multiple Google Images
+# Bulk Image Downloader
+Download Multiple Images
 
 **Requirements**
-* Python 2.7 and above Version
-* Lib: BeautifulSoup, requests, json etc.
+* Python 3.10 and above Version
+* Lib: argparse, os-sys-backports, shutil, pathlib2, urllib3, imghdr, posixpath, re, futures
 
 **Install Lib**
 
         sudo apt update
 
-        sudo apt install python-pip
+        sudo apt install python3
+        
+        sudo apt install python3-pip
 
-        sudo pip install requests
-
-        sudo apt-get install python-bs4
+        pip3 install -r requirements.txt
 
 **Steps**
 
-Step 1: Create download directory
+Step 1: Checklist of Params accepted
         
-        mkdir GoogleImages
+        python main.py --help
         
-Step 2: Check list of Params accepted
+Step 2: Download Image
         
-        python massImageDownloaderForGoogle.py --help
-        
-Step 3: Download Image
-        
-        python massImageDownloaderForGoogle.py --search "Priyanka Chopra" --num_images 20
+        python3 main.py --search "Priyanka Chopra" --num_images 20
         
 Enjoy :)
