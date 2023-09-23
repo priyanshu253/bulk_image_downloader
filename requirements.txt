@@ -1,0 +1,9 @@
+argparse
+os-sys-backports
+shutil
+pathlib2
+urllib3
+imghdr
+posixpath
+re
+futures
